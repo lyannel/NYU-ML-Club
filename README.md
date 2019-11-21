@@ -1,1 +1,3 @@
 # NYU-ML-Club
+## Welcome to the NYU Machine Learning Github Page! 
+### Here we will be posting all of our workshop materials as well as additional resources and some past projects we have done! Feel free to email us at tandon-nymlc@nyu.edu for any questions! To run any of our projects that have the .ipynb extension, please make sure you have installed Python's Jupyter Notebook or download the file and open it in Google Colab :)
