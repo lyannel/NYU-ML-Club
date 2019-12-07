@@ -67,7 +67,7 @@ def response(user_response):
     flatten_values.sort()
     req_tfidf = flatten_values[-2]
     # Check to see if user input matches one or more known keywords
-    # If doesn't find any input matching keywords: returns response: Cna't understand you!
+    # If doesn't find any input matching keywords: returns response: Can't understand you!
     if(req_tfidf == 0):
         response += "Sorry! Can't understand you!"
         return response
@@ -79,7 +79,7 @@ def response(user_response):
 flag=True
 print("Chatty: My name is Chatty. I will answer your queries about Chatbots. If you want to exit, type Bye!")
 while(flag==True):
-    user_response = raw_input("You: ")
+    user_response = input("You: ")
     user_response=user_response.lower()
     if(user_response!='bye'):
         if(user_response =='thanks' or user_response =='thank you' ):
